@@ -1,1 +1,15 @@
 # entry point
+#!/usr/bin/env python
+import sys
+from src.crew import MyCrew
+
+
+def run():
+    # Replace with your inputs, it will automatically interpolate any tasks and agents information
+    inputs = {
+        "ddos_attack"
+    }
+    MyCrew().crew().kickoff(inputs=inputs)
+
+if __name__ == "__main__":
+    run()
