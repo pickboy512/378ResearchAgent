@@ -1,5 +1,3 @@
-# entry point
-#!/usr/bin/env python
 import sys
 from crew import MyCrew
 
